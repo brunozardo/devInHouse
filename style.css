@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans;
+    font-size: 1rem;
+}
+body{
+    background-color:white;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header, div{
+    margin-top: 30px;
+    text-align: center;
+}
+header h1{
+    font-size: 40px;
+}
+
+ul > li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    word-wrap: break-word;
+    width: 70vh;
+    -webkit-transition: opacity 2.0s ease-in;
+       -moz-transition: opacity 2.0s ease-in;
+         -o-transition: opacity 2.0s ease-in;
+         transition: opacity 2.0s ease-in;
+          
+         opacity: 1;
+}
+#list {
+    margin-top: 30px;
+}
+
+.feito{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.check, .delete, #btnAdicionar, input{
+    padding: 5px;
+    border: none;
+    background-color:#DBD5B5;
+    cursor: pointer;
+    
+}
+#btnAdicionar{
+    background-color: #FCAB10;
+    width: 20vh;
+}
+.check {
+    margin-right: 10px;
+    background-color: #44AF69;
+    color: white;
+    padding:0px 20px 0px 20px;
+
+}
+.delete {
+    margin: 0 0 0 0;
+    flex: 1;
+    max-width: 80px;
+    min-width: 80px;
+    background-color: #F8333C;
+    color: white; 
+
+}
+input{
+    width: 50vh;
+}
+
